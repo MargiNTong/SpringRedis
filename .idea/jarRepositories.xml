@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="siebre-snapshot" />
+      <option name="name" value="Siebre Snapshot Repository" />
+      <option name="url" value="http://nexus.siebre.com:8878/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="siebre-proxy" />
+      <option name="name" value="Siebre Proxy Repository" />
+      <option name="url" value="http://114.55.36.142:8081/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-public" />
+      <option name="name" value="MuleSoft Public Repository" />
+      <option name="url" value="https://repository.mulesoft.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-releases" />
+      <option name="name" value="Spring Releases" />
+      <option name="url" value="https://repo.spring.io/release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Mule-releases-ee" />
+      <option name="name" value="Mule-releases-ee" />
+      <option name="url" value="https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-releases" />
+      <option name="name" value="MuleSoft Releases Repository" />
+      <option name="url" value="http://repository.mulesoft.org/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-milestones" />
+      <option name="name" value="Spring Milestones" />
+      <option name="url" value="https://repo.spring.io/libs-milestone-local" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="siebre-release" />
+      <option name="name" value="Siebre Release Repository" />
+      <option name="url" value="http://nexus.siebre.com:8878/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mule-archetype" />
+      <option name="name" value="Mule Repository" />
+      <option name="url" value="https://repository-master.mulesoft.org/nexus/content/repositories/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mulesoft-snapshots" />
+      <option name="name" value="MuleSoft Snapshot Repository" />
+      <option name="url" value="http://repository.mulesoft.org/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="alimaven" />
+      <option name="name" value="aliyun maven" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+  </component>
+</project>
