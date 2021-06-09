@@ -14,13 +14,15 @@ import java.util.UUID;
 @RestController
 public class DemoController {
 
-    private String redis_Lock = "RedisLock";
+    private static String redis_Lock = "RedisLock";
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
     @Autowired
     private DefaultRedisScript redisScript;
     @Value("${server.port}")
     private String port;
+
+    private static List<String> keys = new ArrayList<String>(){{add(redis_Lock);}};
 
     @GetMapping("/buyGood")
     public String buyGood(){
@@ -45,14 +47,12 @@ public class DemoController {
             }
             return result;
         }finally {
-            List<String> keys = new ArrayList<>();
-            keys.add(redis_Lock);
-            List<String> args = new ArrayList<>();
-            args.add(currentUser);
-            stringRedisTemplate.execute(redisScript,keys,currentUser);
+
 //            if (stringRedisTemplate.opsForValue().get(redis_Lock).equals(currentUser)) {
 //                stringRedisTemplate.delete(redis_Lock);
 //            }
+            /*调用Lua脚本*/
+                    stringRedisTemplate.execute(redisScript,keys,currentUser);
         }
     }
 }
