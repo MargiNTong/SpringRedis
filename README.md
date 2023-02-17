@@ -1,1 +1,1 @@
-RedisDemo，just for Test。
+RedisDemo，Just for Test。
