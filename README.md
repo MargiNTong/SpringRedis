@@ -1,2 +1,2 @@
-Note：This Is  RedisDemo，Just For Test!
+Note：This Is RedisDemo, Just For Test!
 
