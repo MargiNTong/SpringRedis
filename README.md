@@ -1,5 +1,4 @@
 Hi,
-everyone, watch out.
-
-Note：This Is RedisDemo, Just For Test!
+everyone, watch out!
+This Is RedisDemo, Just For Test!
 Thanks.
